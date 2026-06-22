@@ -1,0 +1,102 @@
+[
+  {
+    "ID": "po-001",
+    "vendor": "Acme Industrial Supplies GmbH",
+    "orderQuantity": 500,
+    "amount": 12500.00,
+    "currency": "EUR",
+    "dueDate": "2026-07-15",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-002",
+    "vendor": "Nordic Office Solutions AB",
+    "orderQuantity": 200,
+    "amount": 4800.00,
+    "currency": "EUR",
+    "dueDate": "2026-08-01",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-003",
+    "vendor": "Iberian Logistics S.L.",
+    "orderQuantity": 1000,
+    "amount": 31000.00,
+    "currency": "EUR",
+    "dueDate": "2026-09-10",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-004",
+    "vendor": "Alpine Precision Parts AG",
+    "orderQuantity": 150,
+    "amount": 9750.00,
+    "currency": "EUR",
+    "dueDate": "2026-06-30",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-005",
+    "vendor": "Baltic Freight Carriers OÜ",
+    "orderQuantity": 300,
+    "amount": 6600.00,
+    "currency": "EUR",
+    "dueDate": "2026-05-20",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-006",
+    "vendor": "Adriatica Chemicals s.r.l.",
+    "orderQuantity": 80,
+    "amount": 22400.00,
+    "currency": "EUR",
+    "dueDate": "2026-04-30",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-007",
+    "vendor": "Benelux Tech Components BV",
+    "orderQuantity": 60,
+    "amount": 18000.00,
+    "currency": "EUR",
+    "dueDate": "2026-07-01",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-008",
+    "vendor": "Hanseatic Trading GmbH",
+    "orderQuantity": 400,
+    "amount": 8800.00,
+    "currency": "EUR",
+    "dueDate": "2026-07-20",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-009",
+    "vendor": "Levantine Textiles Ltd.",
+    "orderQuantity": 250,
+    "amount": 11250.00,
+    "currency": "EUR",
+    "dueDate": "2026-09-15",
+    "status": "OPEN",
+    "notes": ""
+  },
+  {
+    "ID": "po-010",
+    "vendor": "Caledonian Engineering Ltd.",
+    "orderQuantity": 120,
+    "amount": 36000.00,
+    "currency": "EUR",
+    "dueDate": "2026-09-28",
+    "status": "OPEN",
+    "notes": "Partial delivery agreed with vendor on 2026-05-12. First shipment of 90 units at £270/unit; remaining 30 units deferred to Q3 pending regulatory clearance. Invoice reflects first shipment only."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "gr-001",
+    "poID": "po-001",
+    "receivedQuantity": 500,
+    "receivedAmount": 12500.00,
+    "receivedDate": "2026-06-10"
+  },
+  {
+    "ID": "gr-002",
+    "poID": "po-002",
+    "receivedQuantity": 200,
+    "receivedAmount": 4800.00,
+    "receivedDate": "2026-06-14"
+  },
+  {
+    "ID": "gr-003",
+    "poID": "po-003",
+    "receivedQuantity": 1000,
+    "receivedAmount": 31000.00,
+    "receivedDate": "2026-06-01"
+  },
+  {
+    "ID": "gr-004",
+    "poID": "po-004",
+    "receivedQuantity": 150,
+    "receivedAmount": 9750.00,
+    "receivedDate": "2026-06-05"
+  },
+  {
+    "ID": "gr-005",
+    "poID": "po-005",
+    "receivedQuantity": 300,
+    "receivedAmount": 6600.00,
+    "receivedDate": "2026-05-01"
+  },
+  {
+    "ID": "gr-006",
+    "poID": "po-006",
+    "receivedQuantity": 80,
+    "receivedAmount": 22400.00,
+    "receivedDate": "2026-04-10"
+  },
+  {
+    "ID": "gr-007",
+    "poID": "po-009",
+    "receivedQuantity": 190,
+    "receivedAmount": 8550.00,
+    "receivedDate": "2026-06-05"
+  },
+  {
+    "ID": "gr-008",
+    "poID": "po-010",
+    "receivedQuantity": 90,
+    "receivedAmount": 27000.00,
+    "receivedDate": "2026-05-20"
+  }
+]
