@@ -1,0 +1,35 @@
+# Environment
+.env
+.env.local
+default-env.json
+.cdsrc-private.json
+
+# Dependencies
+node_modules/
+
+# CAP build artefacts
+gen/
+.cds-dxfn-tmp
+
+# MTA build output
+mta_archives/
+resources/
+
+# SQLite dev database
+*.db
+
+# Test coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

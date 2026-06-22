@@ -1,0 +1,46 @@
+_schema-version: "3.1"
+ID: po-analysis-agent
+version: 1.0.0
+description: Purchase Order analysis agent on SAP BTP
+
+parameters:
+  enable-parallel-deployments: true
+
+modules:
+  - name: po-analysis-agent-srv
+    type: nodejs
+    path: .
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 512M
+      disk-quota: 1024M
+    build-parameters:
+      builder: npm
+      build-result: .
+    requires:
+      - name: po-analysis-agent-db
+      - name: po-analysis-agent-aicore
+    provides:
+      - name: srv-api
+        properties:
+          srv-url: ${default-url}
+
+  - name: po-analysis-agent-db-deployer
+    type: hdb
+    path: gen/db
+    parameters:
+      buildpack: nodejs_buildpack
+    requires:
+      - name: po-analysis-agent-db
+
+resources:
+  - name: po-analysis-agent-db
+    type: com.sap.xs.hdi-container
+    parameters:
+      service: hana
+      service-plan: hdi-shared
+
+  - name: po-analysis-agent-aicore
+    type: org.cloudfoundry.user-provided-service
+    parameters:
+      path: ./default-env.json

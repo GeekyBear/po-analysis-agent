@@ -1,0 +1,46 @@
+{
+  "name": "po-analysis-agent",
+  "author": "Ezequiel Sánchez <ezedsanchez@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeekyBear/po-analysis-agent"
+  },
+  "version": "1.0.0",
+  "description": "Purchase Order analysis agent on SAP BTP — 3-way matching with AI-assisted anomaly detection",
+  "license": "Apache-2.0",
+  "main": "srv/po-analysis-service.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch",
+    "analyze": "node scripts/analyze.js",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "deploy:cf": "mbt build && cf deploy mta_archives/*.mtar"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.105.0",
+    "@sap/cds": "^9.9.1",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4.0",
+    "@sap/cds-dk": "^9.9.2",
+    "@vitest/coverage-v8": "^4.1.9",
+    "vitest": "^4.1.9"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "url": ":memory:"
+        }
+      }
+    }
+  }
+}
