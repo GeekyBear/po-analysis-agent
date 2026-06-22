@@ -1,0 +1,58 @@
+[
+  {
+    "ID": "inv-001",
+    "poID": "po-001",
+    "invoicedAmount": 12500.00,
+    "invoicedDate": "2026-06-12",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-002",
+    "poID": "po-002",
+    "invoicedAmount": 4800.00,
+    "invoicedDate": "2026-06-16",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-003",
+    "poID": "po-003",
+    "invoicedAmount": 31000.00,
+    "invoicedDate": "2026-06-05",
+    "status": "APPROVED"
+  },
+  {
+    "ID": "inv-004",
+    "poID": "po-004",
+    "invoicedAmount": 9920.00,
+    "invoicedDate": "2026-06-08",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-005",
+    "poID": "po-005",
+    "invoicedAmount": 6930.00,
+    "invoicedDate": "2026-05-05",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-006",
+    "poID": "po-006",
+    "invoicedAmount": 22400.00,
+    "invoicedDate": "2026-04-15",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-007",
+    "poID": "po-009",
+    "invoicedAmount": 11250.00,
+    "invoicedDate": "2026-06-08",
+    "status": "PENDING"
+  },
+  {
+    "ID": "inv-008",
+    "poID": "po-010",
+    "invoicedAmount": 27000.00,
+    "invoicedDate": "2026-05-22",
+    "status": "PENDING"
+  }
+]
